@@ -1,0 +1,22 @@
+title: 国際理解教育のポータルサイト
+
+description: >-
+  国際理解教育の授業プランを提供するサイト
+
+baseurl: ""
+url: "https://<GGK-ITNL-programs>"
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ryby/

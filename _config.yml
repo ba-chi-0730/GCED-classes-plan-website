@@ -9,6 +9,7 @@ url: "https://<GGK-ITNL-programs>"
 plugins:
   - jekyll-feed
 
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/

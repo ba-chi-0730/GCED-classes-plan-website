@@ -1,20 +1,16 @@
 --- 
-layout: post 
+layout: page
 ---
 
 <main>
     <section>
         <header>
-            <h2>投稿一覧</h2>
+            <div class="jumbotron">
+            <h1 class="display-4">国際理解教育ゼミ</h1>
+            <p class="lead">岡山学芸館高等学校SGH/グローカル事業　国際理解教育ゼミでの活動内容をご案内しています。</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
         </header>
 
-        {% for post in site.posts %}
-        <aside>
-            <a href="{{ post.url }}">
-                <h3>{{ post.title }}</h3>
-            </a>
-            <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
-        </aside>
-        {% endfor %}
     </section>
 </main>
